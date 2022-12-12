@@ -1,0 +1,61 @@
+{
+  "window.titleBarStyle": "custom",
+  "window.title": "${dirty}${activeEditorShort}${separator}${activeFolderShort}${separator}${folderName}",
+  "window.titleSeparator": " > ",
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": true,
+  
+  "workbench.layoutControl.enabled": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.editor.untitled.labelFormat": "name", 
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "workbench.colorCustomizations": {
+    "[Atom One Dark]": {
+      "titleBar.activeBackground": "#0d1117",
+      "editor.background": "#161b22",
+      "editorGroupHeader.tabsBackground": "#0d1117",
+      "statusBar.background": "#0d1117",
+      "sideBar.background": "#0d1117",
+      "activityBar.background": "#0d1117",
+      "activityBar.foreground": "#1871f7",
+      "activityBar.inactiveForeground": "#707070",
+      "activityBarBadge.background": "#1f6feb",
+      "tab.inactiveBackground": "#161b22",
+      "tab.hoverBackground": "#1d232c",
+      "tab.activeBorder": "#028635"
+    }
+  },
+  
+  "editor.fontLigatures": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'fira code'",
+  "editor.minimap.size": "fit",
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "[Atom One Dark]": {
+      "functions": "#3399ff",
+      "comments": "#787f85",
+    }
+  },
+  
+  "terminal.integrated.fontFamily": "'Fira code'",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.cursorStyle": "line",
+  
+  "liveServer.settings.donotShowInfoMsg": true,
+ 
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.folders.color": "#3686e6",
+  
+  "explorer.confirmDragAndDrop": false,
+  
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+  
+}
