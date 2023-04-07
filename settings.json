@@ -1,13 +1,13 @@
 {
   "window.titleBarStyle": "custom",
-  "window.title": "${dirty}${activeEditorShort}${separator}${activeFolderShort}${separator}${folderName}",
+  "window.title": "${dirty} ${activeEditorShort} ${dirty}",
   "window.titleSeparator": " > ",
-  "window.menuBarVisibility": "compact",
+  "window.menuBarVisibility": "compact", 
   "window.commandCenter": true,
-  
+
   "workbench.layoutControl.enabled": false,
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.editor.untitled.labelFormat": "name", 
+  "workbench.editor.untitled.labelFormat": "name",
   "workbench.colorTheme": "Atom One Dark",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
@@ -24,38 +24,55 @@
       "activityBarBadge.background": "#1f6feb",
       "tab.inactiveBackground": "#161b22",
       "tab.hoverBackground": "#1d232c",
-      "tab.activeBorder": "#028635"
+      "tab.activeBorderTop": "#066eaa",
     }
   },
-  
+
   "editor.fontLigatures": true,
   "editor.stickyScroll.enabled": true,
   "editor.fontSize": 18,
   "editor.tabSize": 2,
-  "editor.fontFamily": "'fira code'",
+  "editor.fontFamily": "Fira code",
   "editor.minimap.size": "fit",
   "editor.minimap.showSlider": "always",
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.cursorBlinking": "expand",
+  "editor.linkedEditing": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.autoClosingQuotes": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tokenColorCustomizations": {
     "[Atom One Dark]": {
       "functions": "#3399ff",
-      "comments": "#787f85",
+      "comments": "#787f85"
     }
   },
-  
-  "terminal.integrated.fontFamily": "'Fira code'",
+
+  "terminal.integrated.fontFamily": "fira code",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.cursorStyle": "line",
-  
-  "liveServer.settings.donotShowInfoMsg": true,
- 
-  "material-icon-theme.hidesExplorerArrows": true,
-  "material-icon-theme.folders.color": "#3686e6",
-  
+
   "explorer.confirmDragAndDrop": false,
-  
+
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
-  
+  },
+
+  "breadcrumbs.enabled": false,
+
+  // Extensions
+
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser":"chrome",
+
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.folders.color": "#3686e6",
+
+  "gitlens.defaultDateLocale": null,
+  "gitlens.defaultDateFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  "git.autofetch": true
 }
